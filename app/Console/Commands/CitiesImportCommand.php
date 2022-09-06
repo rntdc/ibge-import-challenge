@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
+use Illuminate\Support\Collection;
 use App\Services\IBGE\IbgeService;
 
 class CitiesImportCommand extends Command
